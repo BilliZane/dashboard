@@ -1,18 +1,22 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <main class="main">
+    <div class="container">
+      <div class="main__wrap">home</div>
+    </div>
+  </main>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+<script setup>
+import TheAuth from '../views/TheAuth.vue'
+</script>
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+<style lang="scss">
+.main {
+  padding-top: 15px;
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
-</script>
+</style>

@@ -1,5 +1,5 @@
 {
-  "name": "111",
+  "name": "dashboard",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "pinia": "^2.0.32",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
